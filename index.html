@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fechamento Tesouraria</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/Hippo_Logo_Secondary.png" alt="Logo Hippo">
+        <nav class="navigation">
+            <ul>
+                <li class="nav-item"><a href="#">Gabriel Kalabaide - Tesoureiro - 64456</a></li>
+            </ul>
+            <span><a href="#"><ion-icon class="exit-icon" name="exit-outline"></ion-icon></a></span>
+        </nav>
+    </header>
+    <main>
+        <div class="main-title">
+            <h1>Fechamento Tesouraria</h1>
+        </div>
+            <form action="#">
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="operator-number">Número do operador</label>
+                        <input type="number" id="operator-number" name="operator-number" placeholder="24839" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="data">Data do Fechamento</label>
+                        <input type="date" name="data" placeholder="12/08/2022" required>
+                    </div>
+                    <div class="fixed-data">
+                        <div class="select-data">
+                            <input type="checkbox" name="data-fixed" id="fixar-data">
+                            <label for="fixar-data">Fixar data</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <hr id="divider">
+            <div class="subtitle">
+                <h1>Lançamentos das Entradas</h1>
+            </div>
+                <form action="#">
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="gti">Grande Total Inicial</label>
+                            <input type="text" name="gti" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="gtf">Grande Total Final</label>
+                            <input type="text" name="gtf" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="encargo">Encargo</label>
+                            <input type="text" name="encargo" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="notas">NFe/NFCe/SAT</label>
+                            <input type="text" name="notas" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="total">Total</label>
+                            <input type="text" name="total" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="total">Outros</label>
+                            <input type="text" name="total" placeholder="753,00" required>
+                        </div>
+                            <a href="#"  class="btn">
+                                <img class="btn-icon" src="assets/images/Btn_Icon.png" alt="+">
+                            </a>
+                    </div>
+                </form>
+                <hr id="divider">
+            <div class="subtitle">
+                <h1>Lançamentos das Saídas</h1>
+            </div>
+                <form action="#">
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="gti">Dinheiro</label>
+                            <input type="text" name="gti" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="gtf">Retirada de Valores</label>
+                            <input type="text" name="gtf" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="encargo">Delivery POS</label>
+                            <input type="text" name="encargo" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="notas">Cartão Presente</label>
+                            <input type="text" name="notas" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="total">Cheque</label>
+                            <input type="text" name="total" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="total">Cheque à Vista</label>
+                            <input type="text" name="total" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="total">Cheque - Pré</label>
+                            <input type="text" name="total" placeholder="0,00" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="total">Outros</label>
+                            <input type="text" name="total" placeholder="753,00" required>
+                        </div>
+                            <a href="#"  class="btn">
+                                <img class="btn-icon" src="assets/images/Btn_Icon.png" alt="+">
+                            </a>
+                    </div>
+                </form>
+
+                <form action="#">
+                    <div class="input-subgroup">
+                        <div class="subcontainer">
+                            <div class="input-sub-box">
+                                <label for="gti">Convênio</label>
+                                <input type="text" name="gti" placeholder="0,00" required>
+                            </div>
+                            <div class="input-sub-box">
+                                <label for="gtf">Carteira Digital</label>
+                                <input type="text" name="gtf" placeholder="0,00" required>
+                            </div>
+                        </div>
+                        <div class="subcontainer">
+                            <div class="input-sub-box">
+                                <label for="encargo">Dinheiro Operador</label>
+                                <input type="text" name="encargo" placeholder="0,00" required>
+                            </div>
+                            <div class="input-sub-box">
+                                <label for="notas">Cheque Operador</label>
+                                <input type="text" name="notas" placeholder="0,00" required>
+                            </div>
+                        </div>
+                        <div class="subcontainer">
+                            <div class="input-sub-box">
+                                <label for="total">Diferença Dinheiro</label>
+                                <input type="text" name="total" placeholder="0,00" required>
+                            </div>
+                            <div class="input-sub-box">
+                                <label for="total">Diferença Cheque</label>
+                                <input type="text" name="total" placeholder="0,00" required>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <hr id="divider">
+                <div class="subtitle">
+                    <h1>Detalhamento</h1>
+                </div>
+                <div class="subcontainer">
+                    <div class="input-sub-box">
+                        <label for="total">Cancelamentos</label>
+                        <input type="text" name="total" placeholder="0,00" required>
+                    </div>
+                    <div class="input-sub-box">
+                        <label for="total">Quebra</label>
+                        <input type="text" name="total" placeholder="0,00" required>
+                    </div>
+                    <div class="input-sub-box">
+                        <label for="total">Sobra</label>
+                        <input type="text" name="total" placeholder="0,00" required>
+                    </div>
+                </div>
+                <hr id="divider">
+                <div class="subtitle">
+                    <h1>Conciliação automatica TEF</h1>
+                </div>
+                <div class="subcontainer">
+                    <div class="input-sub-box">
+                        <label for="total">Ticket</label>
+                        <input type="text" name="total" placeholder="0,00" required>
+                    </div>
+                    <div class="input-sub-box">
+                        <label for="total">Cartão de crédito</label>
+                        <input type="text" name="total" placeholder="0,00" required>
+                    </div>
+                    <div class="input-sub-box">
+                        <label for="total">Cartão de débito</label>
+                        <input type="text" name="total" placeholder="0,00" required>
+                    </div>
+                </div>
+                <button class="save-btn">
+                    <a href="#">Salvar Fechamento <img src="assets/images/Save_Icon.png" alt=""></a>
+                </button>
+    </main>
+    <footer class="btn-footer">
+        <button class="clear-btn">
+            <a href="#">Limpar tudo <img src="assets/images/Trash_Icon.png" alt=""></a>
+        </button>
+        <button class="close-btn">
+            <a href="#">Fechar o caixa <img src="assets/images/Close_Icon.png" alt=""></a>
+        </button>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
